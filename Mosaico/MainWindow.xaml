@@ -1,0 +1,73 @@
+﻿<Window x:Class="Mosaico.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Mosaico"
+        mc:Ignorable="d"
+        MinHeight="470"
+        MinWidth="450"
+        Title="Mosaico"
+        Icon="picture.ico"
+        Height="568"
+        Width="716">
+    <Grid>
+
+        <DockPanel>
+
+            <TextBlock
+                DockPanel.Dock="Left"
+                Width="100"
+                Background="#FF7711F1">
+            </TextBlock>
+            
+            <TextBlock
+                DockPanel.Dock="Top"
+                Height="100"
+                Background="#FF7711F1">
+            </TextBlock>
+
+            <TextBlock
+                DockPanel.Dock="Bottom"
+                Height="100"
+                Background="#FF55CD11">
+            </TextBlock>
+
+            <TextBlock
+                DockPanel.Dock="Right"
+                Width="100"
+                Background="#FF55CD11">
+            </TextBlock>
+
+            <TextBlock
+                DockPanel.Dock="Left"
+                Width="100"
+                Background="#FFEA6407">
+            </TextBlock>
+
+            <TextBlock
+                DockPanel.Dock="Bottom"
+                Height="100"
+                Background="#FFEA6407">
+            </TextBlock>
+            
+            <TextBlock
+                DockPanel.Dock="Right"
+                Width="100"
+                Background="#FFE007EA">
+            </TextBlock>
+            
+            <TextBlock
+                DockPanel.Dock="Top"
+                Height="100"
+                Background="#FFE007EA">
+            </TextBlock>
+
+            <TextBlock
+                Background="Black">
+            </TextBlock>
+
+        </DockPanel>
+
+    </Grid>
+</Window>
